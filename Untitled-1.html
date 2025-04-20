@@ -1,0 +1,66 @@
+index.html<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Loja de Roupas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .item img {
+            max-width: 100%;
+            border-radius: 6px;
+        }
+
+        .item h3 {
+            margin: 10px 0 5px;
+        }
+
+        .item p {
+            font-weight: bold;
+            color: #2d2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Loja de Roupas</h1>
+
+    <div class="catalogo">
+        <div class="item">
+            <h3>Camiseta Estampada</h3>
+            <img src="imagens/camiseta1.jpg" alt="Camiseta Estampada">
+            <p>R$ 49,90</p>
+        </div>
+
+        <div class="item">
+            <h3>Calça Jogger</h3>
+            <img src="imagens/calca1.jpg" alt="Calça Jogger">
+            <p>R$ 99,90</p>
+        </div>
+    </div>
+</body>
+</html>
